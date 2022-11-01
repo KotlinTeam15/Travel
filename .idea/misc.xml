@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/roundbt.xml" value="0.1265" />
-        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.31105990783410137" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_maps.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/city_item.xml" value="0.33" />
       </map>
     </option>
   </component>
