@@ -1,4 +1,4 @@
-# Milestone 1 - Travel App
+# Milestone 1 - Traversity
 
 ## Table of Contents
 
