@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/item_border.xml" value="0.1" />
         <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/roundbt.xml" value="0.1265" />
-        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_maps.xml" value="0.16168478260869565" />
-        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/city_item.xml" value="0.33" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_maps.xml" value="0.22" />
+        <entry key="..\:/Users/weize/AndroidStudioProjects/TravelApp/app/src/main/res/layout/city_item.xml" value="0.28370786516853935" />
       </map>
     </option>
   </component>

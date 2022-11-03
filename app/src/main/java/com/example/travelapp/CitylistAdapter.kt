@@ -1,19 +1,13 @@
 package com.example.travelapp
 
-import android.content.ActivityNotFoundException
-import android.content.Intent
-import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 
-class CitylistAdapter(private val citylists: List<Citylist>) : RecyclerView.Adapter<CitylistAdapter.ViewHolder>() {
+class CitylistAdapter(private val citylists: List<City>) : RecyclerView.Adapter<CitylistAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         // TODO: Create member variables for any view that will be set
@@ -48,6 +42,8 @@ class CitylistAdapter(private val citylists: List<Citylist>) : RecyclerView.Adap
         // Set item views based on views and data model
         val cityitemcityTV = holder.cityitemcityTV
         cityitemcityTV.setText(citylist.cityName)
+        val cityitemcountryTV = holder.cityitemcountryTV
+        cityitemcountryTV.setText(citylist.countryName)
         val cityitemIV = holder.cityitemIV
         //cityitemIV.setImageBitmap()
         //Glide.with(this)

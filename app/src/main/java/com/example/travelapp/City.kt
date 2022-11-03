@@ -1,7 +1,7 @@
 package com.example.travelapp
 
-class Citylist(
+class City(
     val cityName: String,
     val countryName: String,
-    val imageURL: String) {
+    val imageURL: String?) {
 }
