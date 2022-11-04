@@ -1,13 +1,18 @@
 package com.example.travelapp
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
+import kotlinx.coroutines.withContext
 
-class CitylistAdapter(private val citylists: List<City>) : RecyclerView.Adapter<CitylistAdapter.ViewHolder>() {
+class CitylistAdapter(private val citylists: List<City>) : RecyclerView.Adapter<CitylistAdapter.CityViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         // TODO: Create member variables for any view that will be set
@@ -29,30 +34,34 @@ class CitylistAdapter(private val citylists: List<City>) : RecyclerView.Adapter<
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val context = parent.context
-        val inflater = LayoutInflater.from(context)
-        val contactView = inflater.inflate(R.layout.city_item, parent, false)
-        return ViewHolder(contactView)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CityViewHolder {
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.city_item, parent, false)
+        return CityViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        // Get the data model based on position
+    inner class CityViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
+        var mItem: City? = null
+        val mCityItemIV : ImageView = mView.findViewById<View>(R.id.cityitemIV) as ImageView
+        val mCityItemCityTV: TextView = mView.findViewById<View>(R.id.cityitemcityTV) as TextView
+        val mCityItemCountryTV: TextView = mView.findViewById<View>(R.id.cityitemcountryTV) as TextView
+    }
+
+    override fun onBindViewHolder(holder: CityViewHolder, position: Int) {
         val citylist = citylists[position]
         // Set item views based on views and data model
-        val cityitemcityTV = holder.cityitemcityTV
-        cityitemcityTV.setText(citylist.cityName)
-        val cityitemcountryTV = holder.cityitemcountryTV
-        cityitemcountryTV.setText(citylist.countryName)
-        val cityitemIV = holder.cityitemIV
-        //cityitemIV.setImageBitmap()
-        //Glide.with(this)
-        //    .load("https://image.tmdb.org/t/p/w500/" + baseResult.known_for?.get(0)?.poster_path)
-        //    .into(mediaImageView)
+        holder.mItem = citylist
+        holder.mCityItemCityTV.text = citylist.cityName
+        holder.mCityItemCountryTV.text = citylist.countryName
+        Log.i("urle", "${citylist.cityURL}")
 
+        Glide.with(holder.mView)
+            .load(citylist.cityURL)
+            .into(holder.mCityItemIV)
     }
 
     override fun getItemCount(): Int {
         return citylists.size
     }
+
 }
