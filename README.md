@@ -120,7 +120,8 @@ App listing nearby attractions, food, hotels, and public tranportation based on 
 - Hotel List
   - Hotel Details
   - City List
-
+**Gif
+https://recordit.co/9OwjzBA6yM
 ## Wireframes
 
 <img src="https://github.com/KotlinTeam15/Travel/blob/master/Travel%20Wireframe-1_7ea.png" width=600>
