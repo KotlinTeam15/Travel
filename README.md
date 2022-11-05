@@ -1,10 +1,10 @@
 # Milestone 1 - Traversity
 
 ## Table of Contents
-
-1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+1. **Gif** https://recordit.co/9OwjzBA6yM
+2. [Overview](#Overview)
+3. [Product Spec](#Product-Spec)
+4. [Wireframes](#Wireframes)
 
 ## Overview
 
