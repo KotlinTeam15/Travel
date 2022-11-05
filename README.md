@@ -120,6 +120,7 @@ App listing nearby attractions, food, hotels, and public tranportation based on 
 - Hotel List
   - Hotel Details
   - City List
+ 
 **Gif
 https://recordit.co/9OwjzBA6yM
 ## Wireframes
