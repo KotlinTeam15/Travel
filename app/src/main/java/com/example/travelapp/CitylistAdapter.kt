@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
+//import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import kotlinx.coroutines.withContext
 
 class CitylistAdapter(private val citylists: List<City>) : RecyclerView.Adapter<CitylistAdapter.CityViewHolder>() {
