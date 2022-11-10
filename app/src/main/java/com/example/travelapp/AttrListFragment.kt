@@ -19,7 +19,7 @@ private const val MAPS_API_KEY = BuildConfig.MAPS_API_KEY
 private const val LATITUDE = 33.8670522
 private const val LONGITUDE = 151.1957362
 private const val ATTR_SEARCH_URL =
-"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${LATITUDE}%2C${LONGITUDE}&radius=1500&type=restaurant&key=${MAPS_API_KEY}"
+"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${LATITUDE}%2C${LONGITUDE}&radius=1500&type=shopping_mall&key=${MAPS_API_KEY}"
 
 fun createJson() = Json {
     isLenient = true
