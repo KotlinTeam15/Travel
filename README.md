@@ -122,7 +122,10 @@ App listing nearby attractions, food, hotels, and public tranportation based on 
   - Hotel Details
   - City List
  
-##Video Walkthrough
+## Video Walkthrough
+
+Walkthrough of adding cities: 
+
 <img src='TraversityDemo1.gif' title='Traversity Demo' height='600' alt='Traversity App Demo' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).  
 
