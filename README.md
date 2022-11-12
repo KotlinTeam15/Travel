@@ -1,9 +1,9 @@
 # Milestone 1 - Traversity
 
 ## Table of Contents
-1. **Gif** https://recordit.co/9OwjzBA6yM
-2. [Overview](#Overview)
-3. [Product Spec](#Product-Spec)
+1. [Overview](#Overview)
+2. [Product Spec](#Product-Spec)
+3. [Video Demo](#Video Walkthrough)
 4. [Wireframes](#Wireframes)
 
 ## Overview
@@ -122,11 +122,11 @@ App listing nearby attractions, food, hotels, and public tranportation based on 
   - Hotel Details
   - City List
  
-**Gif
+##Video Walkthrough
 <img src='TraversityDemo1.gif' title='Traversity Demo' height='600' alt='Traversity App Demo' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).  
 
-Full Demo: [a link](https://github.com/KotlinTeam15/Travel/blob/master/Screen_Recording_20221112-132004_Travel%20App.mp4)
+Full Demo: [Demo Link](https://github.com/KotlinTeam15/Travel/blob/master/Screen_Recording_20221112-132004_Travel%20App.mp4)
 
 ## Wireframes
 
