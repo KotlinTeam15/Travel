@@ -42,7 +42,7 @@ App listing nearby attractions, food, hotels, and public tranportation based on 
 
 **Required Features**
 
-* [x] User can select cities of their own choosing on a map
+- [x] User can select cities of their own choosing on a map
 * User can find nearby food, tourist attractions, hotels, public transportation
 * User can see nearby places by place type
 * Clicking on a place will show more information about it (e.g. distance, address, contact, atmosphere)
